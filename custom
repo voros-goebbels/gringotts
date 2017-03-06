@@ -1,0 +1,14 @@
+#!bin/bash
+rem "first-look" "this customises the UX at first-look"
+rem "i'm not Bruce Lee"
+
+create $Ambient
+$Ambient="LastOutage+FirstOutage/2.14"
+js "/script""  "
+Inform js.script when $Ambient>$KREyu
+
+Redline when $Ambient>150%$KREyu
+echo "VIBGYOR"
+$IRS=$Ambient/33
+For $IRS In $Ambient Do $CPUClock=
+End Custom
