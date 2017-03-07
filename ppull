@@ -1,0 +1,6 @@
+#!bin/bash
+RND = $4
+GEN RND
+For $4 From RND Do RN#D
+Loop PR1/Master/Develop/RN#D
+rem Aussi
