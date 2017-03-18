@@ -1,0 +1,26 @@
+#!bin/bash
+rem "snake eats tail!"
+gen RND=R$ where R$<=45.3
+gen RND=S$ where S$<=43.2
+gen RND=S2$ where S2$<=41
+
+for R$*S$ do echo "hello fellow nerd"
+for R$/S$ do echo "hello fello nerd"
+for R$/S2$ do echo "Hello fellow nerd"
+prntscr
+prntscr
+cls
+cls
+echo R$+S$=t$
+rem "github pull random file"
+chmod -x -h
+echo "hello fellow nerd"
+cls
+if cls="blinking cursor" then 'RES'
+if cls="red cursor" then 'HIB'
+MAP Time$-h-x
+loop 3-13
+loop 4-13
+unloop 21-10
+printscr
+done
