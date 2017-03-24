@@ -1,0 +1,12 @@
+#!bin/bash
+REM Exit and Entry Strategies
+REM Release Strategy
+
+SET $G = "Goal"
+SET $T = "time for Goal"
+If 'Coriolis Force' <= 1
+If 'Time' <= 1
+then do "Art"
+RPT Till [n+1]
+Call "Snake+Tail"
+RPT till $Time >= 43.54
