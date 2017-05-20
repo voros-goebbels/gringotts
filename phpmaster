@@ -1,0 +1,14 @@
+DD#php/
+clone #flow
+clone clone #flow
+$checksat=Ariane40
+IF $checksat=Azimuth34 THEN DO 10
+$10=9
+$9=5
+$5=9
+SKIP 10 WHEN $9=5
+DOWNLOAD #MAXIM
+endif clause
+$cluster=$PR
+ERASE $PR for $PR=1-10
+rem this file erases your online entity under $adverse
