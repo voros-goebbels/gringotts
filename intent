@@ -1,0 +1,10 @@
+rem this rewards or penalizes intent
+rem CLASS 
+INTENTGRADE$ = for 1-10
+1=low$
+10=high$
+for i=low$='no talk'
+for i=10$='full talktime'
+OTHER$=color for c=pink 2 blue
+rem CLOSE INTENT$
+refresh=12h
