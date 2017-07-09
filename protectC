@@ -1,0 +1,9 @@
+10 If P=SabotageA+I then goto 30
+20 Require Condition$=$50Smile
+30 If M=Foulmouth$ then goto 50
+40 If P=HangUp$ then goto 70
+50 NoSmiles$
+60
+70 NoSmiles$
+Title$=IA
+ThankYouItBreaksMyHeart
